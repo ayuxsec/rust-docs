@@ -1,0 +1,4 @@
+- println: println! calls a Rust macro. 
+- If it had called a function instead, it would be entered as println (without the !). 
+- Rust macros are a way to write code that generates code to extend Rust syntax.
+- compile: rustc main.rs
