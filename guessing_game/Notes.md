@@ -33,4 +33,4 @@ let must bananas = 5; // mutable
 
 - Also possible to do `std::io::stdin` if you don't add `use std::io` at top. the `stdin` returns an instance of [std::io::Stdin](https://doc.rust-lang.org/std/io/struct.Stdin.html) which is a type that represents a handle to the standard input for your terminal.
 
-- `.expect("Failed to read line");`: We could have written this code as: `io::stdin().read_line(&mut guess).expect("Failed to read line");` However, one long line is difficult to read, so it’s best to divide it. It’s often wise to introduce a newline and other whitespace to help break up long lines when you call a method with the .method_name() syntax. Now let’s discuss what this line does.
+- `.expect("Failed to read line");`: We could have written this code as: `io::stdin().read_line(&mut guess).expect("Failed to read line");`
